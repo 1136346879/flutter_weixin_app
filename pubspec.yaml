@@ -1,0 +1,66 @@
+name: flutter_weixin_app
+description: A copy of WeiXin Flutter application.(仿微信app)
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^1.1.0
+  fluro: ^1.7.7
+  dio: ^3.0.10
+  shared_preferences: ^0.5.1
+  url_launcher: ^5.0.1
+
+  cupertino_icons: ^0.1.2
+  flutter_spinkit: ^3.1.0
+  json_annotation: ^2.0.0
+  event_bus:  ^1.0.3
+  fluttertoast: ^3.0.3
+  image_picker: 0.5.0+9
+  barcode_scan: 1.0.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  json_serializable: ^2.0.2
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - static/app.db
+    - static/images/default_img.png
+    - static/images/dianxin.jpg
+    - static/images/xinwen.jpg
+    - static/images/zushou.jpg
+    - static/images/default_nor_avatar.png
+    - static/images/contact_group.png
+    - static/images/contact_new_friend.png
+    - static/images/contact_public_number.png
+    - static/images/contact_tag.png
+    - static/images/find_friend_circle.png
+    - static/images/find_scan.png
+    - static/images/find_shake.png
+    - static/images/find_show.png
+    - static/images/find_sou.png
+    - static/images/find_nearby.png
+    - static/images/find_bottle.png
+    - static/images/find_shop.png
+    - static/images/find_game.png
+    - static/images/find_xcx.png
+    - static/images/me_wallet.png
+    - static/images/me_college.png
+    - static/images/me_gallary.png
+    - static/images/me_setting.png
+    - static/images/me_face.png
+    - static/images/me_pay.png
+    - static/images/chat_bg.png
+  fonts:
+    - family: wxIconFont
+      fonts:
+        - asset: static/font/iconfont.ttf
